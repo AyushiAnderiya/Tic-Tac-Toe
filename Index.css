@@ -14,4 +14,25 @@ h3{
 #div1{
     text-align: center;
 }
+#b1, #b2, #b3, #b4, #b5,
+	#b6, #b7, #b8, #b9 {
+		width: 85px;
+		height: 72px;
+		margin: -2px;
+		border: 1px solid rgba(128, 128, 128, 0);
+		font-size: 30px;
+		text-align: center;
+        background-color: rgba(240, 248, 255, 0);
+	}
+    #b1, #b2, #b3, #b4, #b5,
+	#b6{
+        border-bottom: 5px solid black;
+    }
+    #b1, #b2, #b7, #b4, #b5,
+	#b8{
+        border-right: 5px solid black;
+    }
 
+    button{
+        margin-left: 730px;
+    }
